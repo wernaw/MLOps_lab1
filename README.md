@@ -12,3 +12,9 @@ It covers:
  - FastAPI webserver
  - Serving ML model
  - Containerization, Docker, Docker Compose
+
+Run the app:
+
+```bash
+uv run uvicorn app.app:app --reload --port 8000
+```
